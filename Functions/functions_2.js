@@ -47,3 +47,15 @@ const média = function(prova1, prova2){
 //  ARROW FUCTION : CALCULANDO A MEDIA DE TRÊS NUMEROS
   const media = (n1, n2, n3) => (n1 + n2 + n3) / 3
 console.log(`a media dos três numeros é ${media(10, 23, 78)}`)
+
+
+
+// FUNÇÃO É UM LIQUIDIFICADOR
+
+function fazerSuco(fruta1, fruta2) {
+    return 'suco de: ' + fruta1 + fruta2
+}
+
+const copo = fazerSuco('banana', 'maçã')
+
+console.log(copo)
