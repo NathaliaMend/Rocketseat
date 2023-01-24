@@ -163,3 +163,40 @@ const vasilha = () => console.log('vasilha de plástico de 500ml')
 Suco('leite', 'flocos de arroz', Morango, copo)
 console.log('--------------------')
 Suco('agua', 'flocos de aveia', Banana, vasilha)
+
+
+
+
+/*
+    Function() constructor
+
+    *expressão new
+    *criar um novo objeto
+    *this keyword
+*/
+
+function Person(name) {
+    this.name = name
+    this.walk = function() {
+        return this.name + " está andando"
+    }
+}
+const nath = new Person("nath")
+const miguel = new Person("miguel")
+console.log(nath.walk())
+console.log(miguel.walk())
+
+// MEUS
+
+function Person(name, transporte, idade) {
+    this.name = name
+    this.walk = function() {
+        return `${this.name} está andando de ${transporte} ${idade}`} }
+  
+const nath = new Person("nath", "patins", "22")
+const miguel = new Person("miguel", "carro", "27")
+
+
+
+console.log(nath.walk())
+console.log(miguel.walk())
