@@ -1,7 +1,6 @@
 // É possível declarar funções dentro de variáveis
 // function expression
 // function anonymous
-// nova alteracao test
 
 // parâmetros (parameters) da função / serve para receber os valores
 const sum = function(number1, number2) {
