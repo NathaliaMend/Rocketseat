@@ -1,0 +1,24 @@
+<!--
+    <input type="number" />
+
+    - Entrada de números
+    #Atributos:
+    -min / max  (limite de numeros)
+    -step (serve para pular numeros. exemplo: de 100 em 100) 
+-->
+<form action="">
+    <input type="number" min="0" max="900" step="100"
+    placeholder="somente números">
+    <button>Enviar</button>
+</form>
+
+<br>
+
+<datalist id="numeroslist">
+    <option>200</option>
+    <option>100</option>
+</datalist>
+<form action="">
+    <input type="number" value="" step="100" list="numeroslist">
+    <button>Enviar</button>
+</form>

@@ -1,0 +1,77 @@
+<!--
+    SVG <svg>
+        É uma marcação, estilo html, mas não é para textos, e sim para fazer imagens.
+        Possui elementos para gerar formas
+
+        Para entender melhor
+        - imagem rasterizada (pixelada/uma imagem construida via pixels) 
+            x imagem vetorizada (imagem construída via algoritmos)
+
+        Benefícios de uma imagem vetorizada:
+        - Mais leve
+        - Mais detalhada
+        - Maior acessiblidade e SEO
+        - Pode ser editada via CSS ou atributos
+
+        Desvantagens:
+        - Pode ser mais complicado de trabalhar
+        - Quanto mais complexa a imagem, mais trabalho para o navegador
+        - Navegadores mais antigos não possuem suporte a essa tag
+
+        Para fotografias, ainda prefira usar imagens rasterizadas.
+-->
+
+<svg style="background-color:blueviolet" 
+width="100" height="100">
+    <circle cx="50" cy="50" r="40" stroke="yellow"
+    stroke-width="4" fill="blueviolet"/>
+</svg>
+
+<svg width="300" height="200">
+    <rect 
+    width="100%"
+    height="100%"
+    fill="pink"
+    stroke="black"
+    stroke-width="6" />
+</svg>
+
+<!-- EXPLICANDO AS SIGLAS
+
+      - Width = largura
+      - Height = altura
+      - Circle = círculo
+      - Cx = posicionamento do eixo X
+      - Cy = poosicionamento do eixo Y
+      - R = raio (faz aumentar o tamanho da figura)
+      - Stroke = cor da borda
+      - Stroke-width = largura da borda
+      - Fill = preenchimento
+      - Canva = espaço de trabalho (width e height dentro da tag svg)
+    
+    -->
+
+
+    <!--
+           VANTAGENS DO SVG DIRETO:
+         -Colocar o svg diretamente na página diminui as chamadas que o site faz para arquivos de fora, pois já está dentro da minha página.
+
+         - Outra vantagem é poder colocar cor de fundo.
+
+         DESVANTAGENS
+          - Se tiver que ficar repetindo tags <svg> pode poluir seu código e deixa o documento muito maior.
+          
+    -->
+
+    <!-- O SVG tem todo um universo a mais para estudos
+     https://developer.mozilla.org/en-US/docs/Web/SVG
+    
+    CABEÇALHO| Protocolo | REGRAS: 
+            <svg
+                  version="1.1"
+                  baseProfile="full"
+                  width="100"
+                  height="100"
+                  xmlns="http://www.w3.org/2000/svg" >
+                </svg>
+-->

@@ -1,0 +1,115 @@
+<!--
+    Hyper Links- Elemento Âncora: <a>
+
+  + Anatomia
+
+  +Atributos:
+     -globais (title, id, class)
+     -href
+        -para onnde o íremos, quando clicarmos no link?
+           -URL completa
+           -fragmento
+           -email
+           -telefone
+           -e outros.
+     -download
+     -target
+           - _self (padrão)
+           - _blank (não sai da pagina atual, abre uma outra)
+-->
+
+<!--anatomia--> <a href="">Conteúdo</a>
+
+<!--Fragmento--> 
+      <p>Saiba mais</p>
+<ul>
+    <li> <a href="#about">Sobre mim</a></li>
+    <li> <a href="#histoy">História</a></li>
+    <li> <a href="#works">Trabalhos</a></li>
+</ul>
+
+<h1 id="about">Sobre mim</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Nemo amet quasi minima suscipit odit repellendus ipsam rerum 
+hic, culpa excepturi
+utillo impedit omnis nihil! Cum ducimus velit veritatis non?
+
+ <h2 id="history">História</h2>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Aut maiores eaque culpa quia id, officia neque minima modi
+facere voluptatem? Id perferendis hic blanditiis
+vel minus sunt rem libero dicta.
+
+<h2 id="works">Trabalhos</h2>
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+Deserunt, nobis, dolore earum reiciendis distinctio, tempore corporis 
+magnam quidem libero sapiente veritatis nulla voluptatum!
+Dolores quam cum quae blanditiis esse. Explicabo?<br>
+
+
+<!-- 
+    Conteúdo dos hyperlinks
+      -qualquer conteúdo
+-->
+
+<a href="http://google.com" title="Ir para google">
+     <h1>Google</h1>
+     <p>Claro que posso</p>
+     <img src="https://thumbs.dreamstime.com/b/cidade-
+     moderna-de-la-paz-em-bol%C3%ADvia-obscureceu-por-
+     illimani-74189457.jpg" 
+     alt="">
+</a> 
+<!--aparecem varias imagens quando coloca o link a seguir:
+https://source.unsplash.com/random--> 
+
+<!--
+    URLs e Caminhos dos arquivos
+     -Uniform Resource Locator
+     -É uma sequência de texto que denife onde algo está localizado
+     na web
+     -https://rocketseat.com.br
+    -URLs usam caminhos para encontrar arquivos
+
+    -Caminhos dos arquivos
+         -onde, no explorador de arquivos, um recurso está localizado
+-->
+
+<p> <a href="1criação.html">Abrir primeira criação</a> <br>
+<a href="http://google.com">Abrir google</a> </p>
+
+<!--
+    Como navegar pelos diretórios?(caminhos)
+       -mesmo diretório
+       -entrando em diretórios
+       -saindo de diretórios
+       -diretório raiz (root ou pai)
+-->
+
+<a href="Elementos.html">abrir elementos</a> (MESMO DIRETÓRIO/arquivos
+ na mesma pasta) 
+<br>
+ <a href="../meus/1criação.html">arquivo na pasta meus</a> (SAINDO DO DIRETÓRIO/SUBPASTAS)
+<br>
+ <a href="./Elementos.html">arquivo dentro da pasta</a> (dentro da pasta/arquivo no 
+ diretório raiz)
+<br>
+
+
+
+<!--
+    URLs absolutos versus relativos
+
+    -Absolutos
+      -inclui protocolo e nome de domínio
+        -http://www.rocketseat.com.br/projeto/index.html
+      -sempre apontará para o mesmo local,pois é absoluto
+      MINHA CONCLUSÃO: SEMPRE VAI PARA MESMO LOCAL,
+      NÃO IMPORTA QUAL PÁGINA EU ESTEJA NO MOMENTO.
+
+    -Relativos
+       -relativo à página aberta no momento
+       -apontará para lugares diferentes
+      MINHA CONCLUSÃO: VAI DEPENDER DE ONDE ESTOU E DE COMO
+      ESTOU ESCREVENDO O MEU LINK.
+-->

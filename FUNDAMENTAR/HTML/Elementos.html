@@ -1,0 +1,141 @@
+<!--
+ Semântica
+    -dar significado
+    -elementos semanticos
+-->
+
+
+<!--
+Cabeçalhos e parágrafos
+   - <h1> titulo </h1>
+   - <h2> subtitulo </h2>
+   - <h3> subtitulo do subtitulo </h3>
+(Vai até o <h6>, mas não é interessante 
+    colocar mais de <h3> numa página só)
+-->
+
+
+<!--
+Listas:
+    -ordenadas <ul>
+    -não ordenadas <ol>
+-->
+
+<h1>Suco Detox</h1>
+<h2>Ingredientes</h2>
+
+<ul>
+    <li>3 folhas de couve;</li>
+    <li>1 laranja;</li>
+    <li>1 pedacinho de gengibre;</li>
+    <li>300ml de água;</li>
+    <li>Adoçante a gosto;</li>
+    <li>Gelo a gosto.</li>
+</ul>
+
+<!--
+Citações
+   é um recurso html para avisar que foi 
+   pego um texto de fora, que foi alguém que 
+   fez o texto. Serve para dar crédito a essa
+   pessoa.
+        <blockquote>
+        <cite>
+        <q>
+-->
+
+<blockquote cite="http://developer.mozilla.org/en-US/docs/
+Web/HTML/Element/blockquote">
+    O <strong>Elemento HTML <code> &lt;blockquote&gt;</code></strong>
+    (ou <em>  HTML Block Quotation Element </em>)
+     indica que um text externo foi citado.
+</blockquote>
+
+<p>De acordo com <a href="http://developer.mozilla.org/en-US/docs/
+    Web/HTML/Element/blockquote"> 
+    <cite>página MDN blockquote</cite></a>:
+</p>
+
+<p>O elemento quote - <code>&lt;q&gt;</code>
+     - é <q cite="http://developer.mozilla.org/en-US/docs/
+    Web/HTML/Element/q">
+     usado para citações curtas que não precisam
+    de parágrafos ou quebras de linha.</q>
+--<a href="http://developer.mozilla.org/en-US/docs/
+Web/HTML/Element/q"> <cite> MDN q page </cite></a>.
+</p>
+
+<!--
+    Abreviações
+       <abbr> (Para colocar o significado da abreviação no 
+        no descanso do mouse)
+-->
+
+<p>Usamos <abbr title="Hypertext Markup Language">HTML</abbr>
+     para estruturar nossos documentos da web.
+</p>
+
+<!--
+    Detelhes de contato
+       <address>   
+-->
+
+<anddress>
+    <p>Nathália Mendonça <br>
+    <strong>São Paulo, SP</strong></a>
+    </p>
+</anddress>
+
+
+<!--
+    Lista de descrição
+
+    <dl>
+        <dt></dt>
+        <dd></dd>
+    </dt>
+-->
+
+<h2>Glossário</h2>
+<dl>
+
+    <dt>Hypertext</dt>
+    <dd>É um hiper texto com possibilidades...</dd>
+
+    <dt>Markup</dt>
+    <dd>Marcação do texto</dd>
+
+    <dt>Language</dt>
+    <dd>Linguagem com sua semântica e sintaxe...</dd>
+</dl>
+
+<!--
+    Representação de códigos de computador
+
+    <code>
+      Partes genéricas de código
+       
+    <pre>
+        Blocos de código, pois essa tag mantém os
+     espaços em brancos e recuos que eu colocar no meu código
+-->
+
+<pre>
+    <code>
+          &lt;pre&gt;&lt;/pre&gt;
+    </code>
+</pre>
+
+
+<!--
+    Elementos Genéricos
+
+    * <div> "caixa"'agrupar conteudo'(bloco)
+    * <span> "organização/continua em linha"'agrupar texto'(linha)
+-->
+
+<div  Class="cart">
+      <span>Camiseta</span>
+      <span>r$ 99,00</span>
+</div>
+

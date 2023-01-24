@@ -1,0 +1,100 @@
+<!--
+    <table>
+        Prós
+    -Visualizalção de dados via linhas e colunas.
+    -Boa acessibilidade para leitura dos dados.
+
+        Contra
+    -Pouco flexível
+    -Precisa de estilização para melhor visualização
+
+      Não usar
+    -Para criar seu layout
+-->
+
+<table>
+
+   <capiton>Pessoas por idade</capiton><!--descreve o que a 
+tabela está fazendo (capiton)-->
+
+    <thead><!--cabeçalho (thead)-->
+       <tr>
+           <th>Nome</th> <!--cabeçalho (th)-->
+           <th>Idade</th>
+       </tr>
+    </thead>
+<tbody><!--corpo da tabela (tbody)-->
+     <tr>
+          <td>Mayk</td>
+          <td>35</td>
+     </tr>
+    
+     <tr><!--linha-->
+        <td>Diego</td> <!--cada divisão da tabela-->
+        <td>25</td>
+     </tr>
+</tbody>
+
+<ifoot><!--rodapé (ifoot)-->
+    <tr>
+       <td>Total:</td>
+       <td>2 Pessoas</td>
+    </tr>
+</ifoot>
+
+</table><br> <!--tabela-->
+
+
+<!--
+    2 Lojas 
+       Quantos produtos foram produzidos, quantos
+       vendidos e agrupado por nome dos produtos.
+-->
+
+<table>
+
+     <caption>Produzidos x Vendidos por loja</caption>
+
+
+     <colgroup>
+            <col>
+            <col span="2" style="background-color:rgb(233, 54, 54)">
+            <col span="2" style="background-color:rgb(106, 106, 245)">
+     </colgroup><!--span significa "incluir"/ col é coluna row é linha-->
+    
+     <thead>
+        <tr>
+           <th rowspan="2"></th> <!--rowspan="2" ocupa duas linhas(estava vazio/sem nada)-->
+           <th colspan="2" scope="colgroup">Afonso Pena</th><!--colspan="2" ocupas duas colunas-->
+           <th colspan="2" scope="colgroup">Antônia pereira</th> <!--colgroup significa a grupamento de coluna-->
+        </tr>
+
+        <tr>
+            <th scope="col">Vendidos</th> <!--scope serve para acessibilida e para fazer ainda mais sentido-->
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+        
+        </tr>
+    </thead>
+
+  <tbody>
+    <tr>
+        <th scope="row">Vassouras</th>
+        <td>50</td>
+        <td>30</td>
+        <td>20</td>
+        <td>20</td>
+    </tr>
+
+    <tr>
+        <th scope="row">Baldes</th>
+        <td>10</td>
+        <td>10</td>
+        <td>30</td>
+        <td>25</td>
+    </tr>
+  </tbody>
+</table>
+
+
