@@ -24,3 +24,4 @@ console.log('9' + 5)  //O JavaScript ira imprimir "95" usando o TYPE COERSION
 // mas podemos usar o TYPE CONVERSION/manualmente para que a string vire um numero e imprima "14".
 
 console.log(number('9') + 5) //Foi usado, de maneira manual, uma funcao que converte a string em number para que a impressao seja "14". Entretanto, o JavaScript tambem pode usar esse typecasting em alguns momentos.
+
