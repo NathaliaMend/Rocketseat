@@ -75,3 +75,66 @@ console.log(myArray)
 let phraseWithUnderScore = myArray.join("_") // o metodo 'join' serve para indicar com o que voce quer juntar o texto.
 console.log(phraseWithUnderScore) // posso ainda acrescentar o que aprendi a cima. Ex:
 console.log(phraseWithUnderScore.toLowerCase())
+
+
+
+// Manipulando Strings
+
+// Verificar se o texto contem a palavra amor
+ let phrase = "Eu quero viver !"
+ console.log(phrase.includes("Amor"))
+
+
+
+
+ // Manipulando Arrays
+
+ // Criando Array :
+ let myArray = ['a', 'b', 'c']
+ console.log(myArray)
+ // Criando Array com construtor:
+ let myArray = new Array('a', 'b', 'c') //cada argumento virara um elemento
+ // Posso criar um array com posicoes vazias ex:
+ let myArray = new Array(10)
+
+ // Contar os elementos de um array:
+ console.log(["a", "b", "c"])
+// Cada elemento no array pode ser um tipo de dado diferente, incluse um funcao. ex.:
+console.log([ "a", 
+              {type: "array"},
+              function() { return "alo"} 
+].length) // .length para contar os elementos;  [2] para acessar algum elemento que esteja na posicao 2, na mesma linha usar: "()" se eu quiser chamar a funcao no caso de existir uma funcao na posicao 2.
+
+
+// Transformar uma cadeia de caracteres em elementos de um array
+let word = "Manipulacao"
+console.log(Array.from(word))
+
+
+// Manipulando arrays
+let techs = ["html", "css", "js"]
+
+// adicionar um item no fim
+techs.push("nodejs")
+
+// adicionar um item no comeco
+techs.unshift("sql")
+
+// remover do fim
+techs.pop()
+
+// remover do comeco
+techs.shift()
+
+//pegar somente alguns elementos do array
+///console.log(techs.slice(1,3))
+
+// remover 1 ou mais itens em qualquer posicao do array
+//techs.splice(1,2)     // o primeiro elemento antes da virgula remove o item que esta naquela posicao. o segundo elemento depois da virgula remove itens depois do item que foi removido.
+
+// encontrar a posicao de um elemento no array
+let index = techs.indexOf('html')
+techs.splice(index,1) // quero remover o item que esta na posicao index e a quantidade de elementos que quero remover `e 1.
+
+
+console.log(techs)
