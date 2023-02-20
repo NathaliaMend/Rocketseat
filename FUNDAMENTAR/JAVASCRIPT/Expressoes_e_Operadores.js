@@ -8,3 +8,13 @@
 */
 // VEREMOS VARIOS TIPOS DE OPERADORES E EXPRESSOES AGORA..
 
+/* Expression NEW
+ 
+   * left-hand-side expression
+   * Criar um novo objeto
+   
+*/ 
+let name = new String('nath')
+name.surName = "mendonca" 
+let age = new Number(22)
+console.log(name,age)
