@@ -20,7 +20,7 @@ let age = new Number(22)
 console.log(name,age)
 
 
-/*  Operadores unarios
+/*  Operadores UNARIOS
    
      typeof (serve para mostrar o tipo da variável ) //console.log(typeof "Nath")//
      delete (serve para deletar alguma propriedade )
@@ -32,3 +32,46 @@ const person = {
 }
 delete person.age
 console.log(person)
+
+
+// Operadores ARITIMETICOS (calculos matematicos)
+
+//multiplicacao.:  *
+//console.log(3.2 * 4.6)
+
+//divisao.:  /
+//console.log(12 / 2)
+
+//soma.:  +
+//console.log(43 + 20)
+
+//subtracao.:  -
+//console.log(90 - 45)
+
+
+//resto da divisao.:  %    (remainder significa 'restante'/ o operador %, serve para mostrar quanto sobra depois de dividir/da divisao dos dois numeros, qual o resto dessa divisao.)
+/* let remainder 
+    remainder = 11 % 10
+    console.log(remainder) */
+
+//incremento.:  ++     (o increment/++ `e sempre mais 1, entao no exemplo seria 0 + 1 / 0 ++)(posso incrementar(significa adicionar mais 1) quantas vezes eu quiser)
+/* let increment = 0
+   increment++
+   increment++
+   console.log(increment)
+(`E possivel incrementar o valor antes ou depois dentro do console.)
+ ex. de antes: 
+ console.log(++increment)
+ ex. de depois:
+ console.log(increment++)
+ */
+
+//decremento.:   --     (o decrement/-- , serve para subtrair 1)
+/* let decrement = 0
+   console.log(--decrement)*/
+
+//exponencial.:   **.   (No exemplo seria 3 elevado a 3, no qual o resultado `e 27.)
+//console.log(3 ** 3)
+
+
+  
