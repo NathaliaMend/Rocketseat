@@ -8,6 +8,9 @@
 */
 // VEREMOS VARIOS TIPOS DE OPERADORES E EXPRESSOES AGORA..
 
+
+
+
 /* Expression NEW
  
    * left-hand-side expression
@@ -32,6 +35,8 @@ const person = {
 }
 delete person.age
 console.log(person)
+
+
 
 
 // Operadores ARITIMETICOS (calculos matematicos)
@@ -72,6 +77,16 @@ console.log(person)
 
 //exponencial.:   **.   (No exemplo seria 3 elevado a 3, no qual o resultado `e 27.)
 //console.log(3 ** 3)
+
+
+
+// Grouping OPERATOR ( ).   (`E um operador que agrupar expressoes/ serve para trocar a ordem que o computador vai resolver uma expressao. Faz mais sentido quando usado para calculos matematicos)
+let total = 2 + 3 * 5
+console.log(total)
+// comeca pela multiplicacao, resultado: 17
+
+let total = (2 + 3) * 5
+// comeca pelos parenteses, resultado 25
 
 
   
