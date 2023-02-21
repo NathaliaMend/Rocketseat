@@ -18,3 +18,17 @@ let name = new String('nath')
 name.surName = "mendonca" 
 let age = new Number(22)
 console.log(name,age)
+
+
+/*  Operadores unarios
+   
+     typeof (serve para mostrar o tipo da variável ) //console.log(typeof "Nath")//
+     delete (serve para deletar alguma propriedade )
+*/
+ 
+const person = {
+    name: 'nath',
+    age: 22,
+}
+delete person.age
+console.log(person)
