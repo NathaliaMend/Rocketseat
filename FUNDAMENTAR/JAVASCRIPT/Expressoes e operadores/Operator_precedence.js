@@ -11,7 +11,9 @@
 * AND                              &&
 * OR                               ||
 * condicional                      ?:
-* assignment (atribuição)          = += -= *=
+* assignment (atribuição)          = += -= *= %=
+
 */
+// Ordem do mais importante ao menos importante
 
-
+console.log(3 > 2 && 2 > 1)
