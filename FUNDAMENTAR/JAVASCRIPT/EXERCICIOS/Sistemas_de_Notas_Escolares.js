@@ -10,3 +10,8 @@ Crie um algoritimo que transforme as notas do sistema numérico para sitema de n
 
 */
 
+let nota = 85
+
+if (nota >= 90) {
+    console.log('A')
+}
