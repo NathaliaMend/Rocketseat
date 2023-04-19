@@ -12,6 +12,36 @@ Crie um algoritimo que transforme as notas do sistema numérico para sitema de n
 
 let nota = 85
 
-if (nota >= 90) {
+if (nota >= 90 && nota <= 100) {
     console.log('A')
+ }
+if (nota >= 80 && nota <= 89 ) {
+    console.log('B') 
+}
+if (nota >= 70 && nota <= 79) {
+    console.log('C')
+}
+if (nota >= 60 && nota <= 69) {
+    console.log('D')
+}
+if (nota >= 0 && nota <60) {
+    console.log('F')
+}
+//////////////////////////////////////////////OU MELHOR:
+function traduzirNota (nota) {
+    if (nota >= 90 && nota <= 100) {
+        console.log('A')
+     }
+    if (nota >= 80 && nota <= 89 ) {
+        console.log('B') 
+    }
+    if (nota >= 70 && nota <= 79) {
+        console.log('C')
+    }
+    if (nota >= 60 && nota <= 69) {
+        console.log('D')
+    }
+    if (nota >= 0 && nota <60) {
+        console.log('F')
+    }
 }
