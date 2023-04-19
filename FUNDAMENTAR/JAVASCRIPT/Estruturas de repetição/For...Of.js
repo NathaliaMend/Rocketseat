@@ -7,9 +7,18 @@ for(let char of name){// pegue um caracter (char) do (of) name (nome)
         console.log(char)   
 }
 
+
 //////////////////////////////////////////////////////////////////////////////////
 let names = ['Miguel', 'Jose', 'Nicole']
 
 for (let name of names){
     console.log(name)
 }// imprimirá os elementos do array um por um . (formando uma lista com esses nomes)
+
+
+// De tras para frente / Jeito do Miguel:
+let name = "miguel"
+
+for(let i = name.length; i>=0; i--){
+    console.log(name[i]) 
+}
