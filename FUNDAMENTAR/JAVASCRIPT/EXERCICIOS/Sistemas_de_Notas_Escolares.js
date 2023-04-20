@@ -32,7 +32,7 @@ function traduzirNota (nota) {
     if (nota >= 90 && nota <= 100) {
         console.log('A')
      }
-    if (nota >= 80 && nota <= 89 ) {
+    if (nota >= 80 && nota <= 89) {
         console.log('B') 
     }
     if (nota >= 70 && nota <= 79) {
@@ -41,7 +41,11 @@ function traduzirNota (nota) {
     if (nota >= 60 && nota <= 69) {
         console.log('D')
     }
-    if (nota >= 0 && nota <60) {
+    if (nota >= 0 && nota < 60) {
         console.log('F')
+    } 
+    if (nota < 0 || nota > 100) {
+        return 'A nota só pode variar de 0 a 100'
+        //console.log('A nota só pode variar de 0 a 100')
     }
 }
