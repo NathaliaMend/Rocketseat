@@ -49,3 +49,6 @@ function traduzirNota (nota) {
         //console.log('A nota só pode variar de 0 a 100')
     }
 }
+
+// Chamando a função:
+traduzirNota(89)
