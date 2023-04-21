@@ -65,6 +65,8 @@ function financas (contas) {
         }
         console.log(totalreceitas)
         console.log(totalreceitas - totaldespesas)
+
+        
         if (totaldespesas - totalreceitas > 0
         ) { return 'Saldo negativo'} 
         if (totaldespesas - totalreceitas < 0 ) {
