@@ -84,16 +84,16 @@ function sum(array) {
         let total = 0;
        
   for(let value of array) {
-        total += array
-  }  return total
+        total += value
+  }  
+  return total
 }
 
-function calculeteBalance() {
+function calculeteBalance(family) {
         const calculeteIncomes = sum(family.incomes)
         const calculeteExpenses = sum(family.expenses)
 
         const total = calculeteIncomes - calculeteExpenses
-
         const itsOk = total >= 0
 
         let balanceText = "Negativo"
