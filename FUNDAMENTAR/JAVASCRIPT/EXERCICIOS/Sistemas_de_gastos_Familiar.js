@@ -91,6 +91,7 @@ function sum(array) {
 
 function calculeteBalance(family) {
         const calculeteIncomes = sum(family.incomes)
+        // const calculeteIncomes = family.income.reduce((total, v) => total+= v)
         const calculeteExpenses = sum(family.expenses)
 
         const total = calculeteIncomes - calculeteExpenses

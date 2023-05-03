@@ -18,4 +18,15 @@ function CelsiusParaFahrenheit(celsius) {
    return `${fahrenheit.toFixed(1)}°F`
 }
 
-
+// '50F' -> FahrenheitParaCelsius
+// '30C' -> CelsiusParaFahrenheit
+function converter (temperatura) {
+   if ( temperatura.includes('F')){
+    return FahrenheitParaCelsius(temperatura)
+   } 
+   if (temperatura.includes('C')) {
+    return CelsiusParaFahrenheit(temperatura)
+   }
+    
+   return 'A função aceitará apenas númerios concatenados à C(Celsius) ou F(Fahrenheit)'
+}
