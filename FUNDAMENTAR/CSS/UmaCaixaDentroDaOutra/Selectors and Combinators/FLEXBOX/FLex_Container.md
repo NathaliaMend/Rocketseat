@@ -64,6 +64,38 @@
 *Com flex-flow eu posso colocar uma ou mais propriedades dentro dele*
 
 
+## justify-content
+-  É o Alinhamento dos elementos dentro do container,
+é a Distribuição desses elementos
 
+* Seus Valores
+- flex-start
+- flex-end
+- center
+- space-around *significa `espaço ao redor deles`*
+- space-between *significa `espaço entre eles`*
+- space-evenly *significa `constante/ espaço por igual entre eles`*
 
+```html
+<div class="box">
+    <div>A </div>
+    <div>B </div>
+    <div>C </div>
+    <div>D </div>
+</div>
+```
+```css
+.box {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+
+    border: 1px dashed red;
+    height: 150px;
+}
+
+.box div {
+    border: 1px solid;
+}
 
