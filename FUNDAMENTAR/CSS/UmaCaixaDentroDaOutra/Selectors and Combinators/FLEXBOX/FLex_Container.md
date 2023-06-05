@@ -64,7 +64,7 @@
 *Com flex-flow eu posso colocar uma ou mais propriedades dentro dele*
 
 
-## justify-content
+## justify-content *alinhamento dos itens no eixo principal*
 -  É o Alinhamento dos elementos dentro do container,
 é a Distribuição desses elementos
 
@@ -98,4 +98,35 @@
 .box div {
     border: 1px solid;
 }
+```
 
+## align-items *Alinhamento dos itens no eixo cruzado*
+* Seus Valores:
+- stretch *é o padrão* *stretch vem do inglês que significa `esticado`*
+- flex-start
+- flex-end
+- center
+
+```html
+<div class="box">
+    <div>A </div>
+    <div>B </div>
+    <div>C </div>
+    <div>D </div>
+</div>
+```
+```css
+.box {
+    display: flex;
+    flex-direction: column;
+
+    align-items: stretch;
+
+    border: 1px dashed red;
+    height: 150px;
+}
+
+.box div {
+    border: 1px solid;
+}
+```
