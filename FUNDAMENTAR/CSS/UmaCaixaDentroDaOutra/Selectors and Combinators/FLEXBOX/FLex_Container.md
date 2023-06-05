@@ -130,3 +130,30 @@
     border: 1px solid;
 }
 ```
+
+## Propriedade: GAP 
+* Capacidade de por espaços entre os elementos
+* Seus valores:
+- Unidades de medidas fixas: `px`, `pt`   (pixels, pontos)
+- Flexíveis: `%`, `em`, `rem`  
+
+```html
+<div class="box">
+    <div>A </div>
+    <div>B </div>
+    <div>C </div>
+    <div>D </div>
+</div>
+```
+```css
+.box {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2px;
+}
+
+.box div {
+    border: 1px solid;
+}
+```
