@@ -116,3 +116,17 @@ flex-grow || flex-shrink ||flex-basis
     border: 1px solid;
     flex: 1 0 40px; /*flex-grow || flex-shrink ||flex-basis*/
 }
+```
+
+## Alterando tamanho de múltiplos itens:
+
+```html
+<div class="page">
+    <aside>Aside</aside>
+    <main>Main
+        <section>Content 1</section>
+        <section>Content 2</section>
+        <section>Content 3</section>
+    </main>
+</div>
+```
