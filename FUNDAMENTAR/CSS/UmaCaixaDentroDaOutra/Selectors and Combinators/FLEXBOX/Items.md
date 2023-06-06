@@ -90,3 +90,29 @@
     flex-shrink: 1;
 }
 ```
+
+# Shorthand
+## Flex
+- Um atalho para os:
+flex-grow || flex-shrink ||flex-basis
+- Podem ter 1, 2 ou 3 valores
+
+```html
+<div class="box">
+    <div>A </div>
+    <div>B </div>
+    <div>C </div>
+    <div>D </div>
+</div>
+```
+```css
+.box {
+    display: flex;
+    border: 1px dashed red;
+
+    width: 150px;
+}
+.box div {
+    border: 1px solid;
+    flex: 1 0 40px; /*flex-grow || flex-shrink ||flex-basis*/
+}
