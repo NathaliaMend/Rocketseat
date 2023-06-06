@@ -62,3 +62,31 @@
     flex-grow: 1;
 }
 ```
+## Encolhimento e encaixe dos itens
+# Flex-shrink
+- É o encolher do item dentro do container.
+
+```html
+<div class="box">
+    <div>A </div>
+    <div>B </div>
+    <div>C </div>
+    <div>D </div>
+</div>
+```
+```css
+.box {
+    display: flex;
+    border: 1px dashed red;
+
+    width: 150px;
+}
+.box div {
+    flex-basis: 80px;
+    border: 1px solid;
+}
+.box div:nth-child(2),
+.box div:nth-child(3){
+    flex-shrink: 1;
+}
+```
