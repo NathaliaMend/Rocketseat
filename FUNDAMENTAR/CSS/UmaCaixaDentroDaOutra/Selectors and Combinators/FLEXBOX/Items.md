@@ -130,3 +130,11 @@ flex-grow || flex-shrink ||flex-basis
     </main>
 </div>
 ```
+
+## Order 
+- Serve para ordenar os elementos dentro de uma caixa
+- por padrao quando se tem o flex ele é zero 0 .
+- Muda visualmente , não muda a estrutura , apenas o visual
+{
+    order: 1;
+}
