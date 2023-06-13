@@ -1,0 +1,22 @@
+div {
+    display: flex; /*auxiliou no meu alinhamento*/
+    justify-content: center; /*deixei os botoes no centro da div*/
+    gap: .4rem; /*dei um espaco de 4rem entre os botoes*/
+    
+}
+button {
+    background: rgb(130, 9, 243); /* mudei a cor do botao*/
+    border-radius:7px; /*coloquei borda redonda=radius*/
+    border:rgb(130, 9, 243); /*mudei a cor da borda*/
+    height: 50px; /*mudei a altura do botao*/
+    width:auto; /*deixei a largura do botao automatica*/
+    color: whitesmoke;/*colori de branco o que estava escrito no botao*/
+    align-items: center; /*alinhei os itens: imagem e escrita no centro do botao*/ 
+    display: flex; /*auxilia na meu alinhamento*/
+    line-height: 0; /*quando tira o line-height, fica mais alinhado*/
+    
+}
+button :nth-child(1){  /*Peguei o segundo filho do botao...*/
+    height: 30px; /* ...coloquei uma altura*/
+    margin-right: 10px; /*... empurrei tudo o que estava perto do filho do botao para a direita=right*/
+}

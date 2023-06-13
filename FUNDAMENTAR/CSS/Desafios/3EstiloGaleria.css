@@ -1,0 +1,14 @@
+*{
+    margin: 2px
+}
+div {  
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 2px;
+}
+img {
+    border: 1px solid black;
+    width: 20%;
+    height: auto;
+}

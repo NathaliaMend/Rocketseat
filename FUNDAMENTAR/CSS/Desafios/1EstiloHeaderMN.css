@@ -1,0 +1,27 @@
+* {
+    margin: 0; /*tirei a margem*/
+}
+
+header {
+    padding: 2rem; /*espaço em volta*/
+    background: rgb(207, 207, 233);
+}
+
+nav {
+    display: flex; /*permite que o site fique flexível*/
+    justify-content: space-between; /*coloca cada item nas suas extremidades*/
+    gap: 32px;
+    align-items: center; /*alinhamento dos itens no centro*/
+}
+ul {
+    display:flex;
+    list-style: none; /*tirei os pontinhos da lista*/
+    gap: .8rem; /*separei os elementos um dos outros*/
+    align-items: center; /*alinhamento dos itens no centro*/
+}
+ul li:last-child /*ultimo filho li*/ {
+    background: black; /* cor na caixa do elemento*/
+    color: aliceblue; /* cor do elemento*/
+    padding: .8rem; /*espaço em volta*/
+}
+

@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    gap: 1rem;
+    
+}
+
+article, aside {
+    border: black solid 1px;
+    height: 95vh;
+
+}
+article{
+    flex-basis: 25%;
+}
+aside{
+    flex: 1;
+}

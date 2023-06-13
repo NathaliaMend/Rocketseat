@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+    min-height: 100vh ;
+}
+footer {
+    color: white;
+    background: gray;
+    margin-top: auto;
+    height: 8rem;
+    flex: 1; /*pega a cor cinza em todo o eixo principal, que no caso é row por padrão*/
+    display:flex;
+    align-items: center; /*alinha No meio verticalmente*/
+    justify-content: center; /*alinha no meio horizontalmente*/
+}
